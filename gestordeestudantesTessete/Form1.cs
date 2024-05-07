@@ -26,5 +26,10 @@ namespace gestordeestudantesTessete
         {
 
         }
+
+        private void logarbotao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

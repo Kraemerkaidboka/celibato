@@ -60,6 +60,7 @@
             this.logarbotao.TabIndex = 1;
             this.logarbotao.Text = "entra";
             this.logarbotao.UseVisualStyleBackColor = true;
+            this.logarbotao.Click += new System.EventHandler(this.logarbotao_Click);
             // 
             // user
             // 
@@ -103,9 +104,9 @@
             // pictureBoxusuario
             // 
             this.pictureBoxusuario.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxusuario.Image")));
-            this.pictureBoxusuario.Location = new System.Drawing.Point(135, 67);
+            this.pictureBoxusuario.Location = new System.Drawing.Point(-97, 55);
             this.pictureBoxusuario.Name = "pictureBoxusuario";
-            this.pictureBoxusuario.Size = new System.Drawing.Size(119, 93);
+            this.pictureBoxusuario.Size = new System.Drawing.Size(579, 105);
             this.pictureBoxusuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxusuario.TabIndex = 6;
             this.pictureBoxusuario.TabStop = false;
