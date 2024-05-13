@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace gestordeestudantesTessete
 {
-    public partial class login_form : Form
+    public partial class form_login : Form
     {
-        public login_form()
+        public form_login()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace gestordeestudantesTessete
 {
-    partial class login_form
+    partial class form_login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_form));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_login));
             this.textboxuser = new System.Windows.Forms.TextBox();
             this.logarbotao = new System.Windows.Forms.Button();
             this.user = new System.Windows.Forms.Label();
@@ -134,7 +134,7 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "ACESSAR";
             // 
-            // login_form
+            // form_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,7 +148,7 @@
             this.Controls.Add(this.user);
             this.Controls.Add(this.logarbotao);
             this.Controls.Add(this.textboxuser);
-            this.Name = "login_form";
+            this.Name = "form_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
             this.Load += new System.EventHandler(this.login_form_Load);

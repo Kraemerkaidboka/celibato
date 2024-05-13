@@ -16,7 +16,18 @@ namespace gestordeestudantesTessete
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login_form());
+          //  Application.Run(new form_login());
+
+            form_login form_Login = new form_login();
+
+            if (form_Login.ShowDialog() == DialogResult.OK )
+            {
+                Application.Run(new form_login());
+            }
+            else 
+            {
+            Application.Exit();
+            }
         }
     }
 }
