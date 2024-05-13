@@ -88,6 +88,7 @@
             this.textBoxsenha.Location = new System.Drawing.Point(86, 250);
             this.textBoxsenha.Multiline = true;
             this.textBoxsenha.Name = "textBoxsenha";
+            this.textBoxsenha.PasswordChar = '*';
             this.textBoxsenha.Size = new System.Drawing.Size(237, 40);
             this.textBoxsenha.TabIndex = 3;
             // 
@@ -121,6 +122,7 @@
             this.cancelarbutao.TabIndex = 7;
             this.cancelarbutao.Text = "cancelar";
             this.cancelarbutao.UseVisualStyleBackColor = true;
+            this.cancelarbutao.Click += new System.EventHandler(this.cancelarbutao_Click);
             // 
             // label2
             // 
