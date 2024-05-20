@@ -49,6 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estudante.cs" />
+    <Compile Include="Forminserirestudante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forminserirestudante.Designer.cs">
+      <DependentUpon>Forminserirestudante.cs</DependentUpon>
+    </Compile>
     <Compile Include="loginform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +71,9 @@
     <Compile Include="meubancodedados.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forminserirestudante.resx">
+      <DependentUpon>Forminserirestudante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>

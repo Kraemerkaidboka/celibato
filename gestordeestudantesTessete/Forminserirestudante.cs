@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace gestordeestudantesTessete
 {
-    public partial class FormPrincipal : Form
+    public partial class Forminserirestudante : Form
     {
-        public FormPrincipal()
+        public Forminserirestudante()
         {
             InitializeComponent();
         }
 
-        private void listarAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Forminserirestudante forminserirestudante = new Forminserirestudante();
+
+        }
+
+        private void Forminserirestudante_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
