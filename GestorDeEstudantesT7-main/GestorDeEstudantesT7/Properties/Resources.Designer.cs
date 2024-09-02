@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace gestordeestudantesTessete.Properties
+namespace GestorDeEstudantesT7.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace gestordeestudantesTessete.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("gestordeestudantesTessete.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GestorDeEstudantesT7.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

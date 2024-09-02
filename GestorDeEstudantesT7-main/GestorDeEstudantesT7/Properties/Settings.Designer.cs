@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace gestordeestudantesTessete.Properties
+namespace GestorDeEstudantesT7.Properties
 {
 
 
